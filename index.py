@@ -79,6 +79,17 @@ class AcidDissociationCalculator:
     def buffer_ph(self, pKa: float, acid_conc: float, salt_conc: float) -> float:
         """
         Calculate pH of buffer using Henderson-Hasselbalch equation
+
+
+
+
+
+
+
+
+
+
+        
         
         pH = pKa + log([A⁻]/[HA])
         """
